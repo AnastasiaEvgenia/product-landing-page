@@ -12,25 +12,61 @@
 
 	<body>
 		<header id="header">
-			<img id="header-img">
+			<img id="header-img" src="images/logo.png">
 			<nav id="nav-bar">
-				<a class="nav-link" href="description">Features</a>
-				<a class="nav-link" href="comments">Reviews</a>
-				<a class="nav-link" href="contact">Contact Info</a>
+				<a class="nav-link" href="#description">Features</a>
+				<a class="nav-link" href="#flavors">Flavors</a>
+				<a class="nav-link" href="#reviews">Reviews</a>
+				<a class="nav-link" href="#contact">Contact Info</a>
 			</nav>
 		</header>
 		<main>
 			<section id="description">
-				<p></p>
-				<video></video>
+				<p><em>NeN's IceCreams</em> are made from 100% natural ingredients and are delivered directly to your door
+				fresh and frozen. You get to choose your favorite combinations between 10 different flavors and a variety of toppings. Call us now to make your order!</p>
+				<iframe src="https://www.youtube.com/embed/HExift2oOUI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</section>
-			<section id="comments">
-				<form></form>
+			<section id="flavors">
+				<ul>
+					<li class="flavor">Vanila</li>
+					<li class="flavor">Chocolate</li>
+					<li class="flavor">Peanut</li>
+					<li class="flavor">Banana</li>
+					<li class="flavor">Cookies</li>
+					<li class="flavor">Strawberries</li>
+					<li class="flavor">Wafer</li>
+					<li class="flavor">Orange</li>
+					<li class="flavor">Oreo</li>
+					<li class="flavor">Raspberries</li>
+				</ul>
 			</section>
-			<section id="contact"></section>
+			<section id="reviews">
+				<div class="review-container">
+					<img class="client-img" src="images/client.jpg">
+					<span>Best icecream ever! Reminds me the icecream of my grandma!</span>
+				</div>
+				<div class="review-container">
+					<img class="client-img" src="images/client.jpg">
+					<span>I totaly suggest to try Nen's IceCream! Best in town! Always arrives in time!</span>
+				</div>
+				<div class="review-container">
+					<img class="client-img" src="images/client.jpg">
+					<span>I realy enjoyed the raspberries! Will definately try the rest! Very generous portions!</span>
+				</div>
+			</section>
+			<section id="contact">
+				<p>Order here: 003012135423574</p>
+				<p>Send us your questions.</p>
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<label id="email_label" for="email"><sup>*</sup>Email:</label>
+					<input id="email" type="email" name="emailaddress" placeholder="Enter a valid email address.." required>
+					<textarea form="form" name="email" cols="30" rows="10" placeholder="Tell us how we can help you.."></textarea>
+					<input type="submit">
+				</form>
+			</section>
 		</main>
 		<footer>
-			<span></span>
+			<span>Copyright 2018, <em>NeN's IceCreams</em></span>
 			<a href="https://www.linkedin.com/in/anaevgal/" target="_blank">
             	<img src="images/linkedIn.png" alt="Linked In logo." class="linkedIn_logo">
         	</a>

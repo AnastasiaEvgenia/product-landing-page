@@ -59,7 +59,6 @@ body {
 	border-radius: 12px;
 }
 
-
 /* --------------------------------------------------------- */
 @media (min-width: 600px) {
 	#header {
@@ -90,5 +89,27 @@ body {
 		padding: 10px;
 		font-weight: bold;
 		font-style: italic;
+	}
+
+	#description {
+		font-size: 1.2em;
+	}
+
+
+	#video {
+		min-width: 400px;
+		min-height: 250px
+	}
+}
+
+@media (min-width: 1000px) {
+	#description {
+		font-size: 1.5em;
+		padding: 0 1rem;
+	}
+
+	#video {
+		min-width: 500px;
+		min-height: 350px
 	}
 }
